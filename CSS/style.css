@@ -1,0 +1,85 @@
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: Helvetica; sans-serif;
+  font-size: 16px;
+}
+
+nav {
+  background-color: rgba(0,0,0,.5);
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+.container h1{
+  font-size: 2em;
+  font-weight: 600;
+  padding: .50em 0 .50em 0;
+}
+.container h3{
+  font-size: 1.50em;
+  font-weight:500;
+  padding-bottom: .45em;
+}
+.container .author{
+  font-weight:300;
+}
+figcaption {
+  font-size: 12px;
+  font-style: italic;
+}
+.story-text p{
+  line-height: 1.25em;
+  padding-bottom: .75em;
+}
+.story-text {
+  padding-top: 1em;
+}
+.right a{
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color:#000;
+}
